@@ -1,0 +1,46 @@
+html,body{
+	height: 100%!important;
+	background: url(backgroundimage.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+	font-weight: 300;
+	color: #ddc6c6;
+	cursor: pointer;
+}	
+
+hr{
+	border-color: rgb(255, 85, 26);
+	border-width: 30px;
+	max-width: 64px;
+}
+
+.buffer{
+	height: 50px;
+}
+.btn{
+	font-size: 20px;
+	font-weight: 300;
+	border-radius: 500px;
+	background-color: rgb(255, 85, 26);
+	border: rgb(255, 85, 26);
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: rgb(255, 85, 26);
+	border: rgb(255, 85, 26);
+	border-width: 200px;
+}	
+
+.btn-primary:hover{
+	background-color: rgb(233, 85, 26);
+	border-color: rgb(233, 85, 26);
+	border-width: 4px;
+}
+.btn-xl{
+	padding: 10px 30px;
+}
